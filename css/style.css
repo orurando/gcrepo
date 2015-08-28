@@ -831,3 +831,101 @@ hr {
 .btn-custom{
         background: rgba(255,255,255,.2) none;
 }
+.custom-about-1{
+    background: url('../images/section-faster.jpg') center;
+    background-size: cover;
+    padding: 0;
+    min-height: 0px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+.custom-about-1 .overlay{
+    background: rgba(28,22,52,0.54);
+    /*padding: 20px 0;*/
+}
+.custom-about-1 .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.custom-about-1 hgroup h2  {
+    font-weight: 600;
+    font-size: 77px;
+}
+.custom-about-1 hgroup h2 i{
+    color: #20CB9A;
+    font-style: normal;
+}
+.custom-about-2{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.custom-about-2 h3{
+    color: #fff;
+}
+.custom-about-2 hr{
+    width: 60px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.custom-about-2 p{
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+}
+.custom-about-white{
+    color: #585754;
+    background-color: #fff;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.custom-about-white h4{
+    color: #585754;
+    font-weight: 600;
+}
+.custom-about-white hr{
+    width: 60px;
+    border-top: 1px solid #585754;
+    border-bottom: 1px solid #585754; 
+}
+.custom-about-white p{
+    margin-top: 60px;
+    font-size: 18px;
+    color: #585754;
+    line-height: 30px;
+    padding: 0 10%;
+    font-weight: 600;
+}
+.custom-about-last{
+    background: url('../images/quotesimage.jpg') center;
+    background-size: cover;
+    padding: 0;
+    min-height: 0px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+.custom-about-last .overlay{
+    background: rgba(28,22,52,0.54);
+    padding: 20px 0 20px 0;
+}
+.custom-about-last .overlay p{
+    float: right;
+    padding: 0px 25%;
+    color: #fff;
+    width: 100%;
+    text-align: right;
+    padding-bottom: 60px;
+}
+.custom-about-last .row{
+    padding: 120px 0 60px 0;
+}
+.custom-about-last a{
+    padding: 15px 45px;
+}
+.custom-about-last a{
+    padding: 15px 35px;
+}
