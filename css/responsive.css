@@ -227,6 +227,9 @@
         .btn-only-mobile{
             display: none;
         }
+        #button-started{
+            display: none;
+        }
 }
  
 /* Landscape phone to portrait tablet */
@@ -379,6 +382,9 @@
         }
         .btn-only-mobile{
             display: block;
+        }
+        #button-started{
+            display: none;
         }
 }
  
@@ -540,6 +546,9 @@
         }
         .btn-only-mobile{
             display: block;
+        }
+        #button-started{
+            display: none;
         }
 }
 

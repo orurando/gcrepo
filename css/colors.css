@@ -54,7 +54,19 @@
 	color: #fff;
 	text-shadow: none;
 }
-
+.page-turquoise .navbar .nav > li > a{
+    background: #fff;
+    color: #585754;
+    text-shadow: none;
+}
+.page-turquoise .navbar .nav > li > a:hover{
+    background: #fff;
+    color: #20BC8C;
+    text-shadow: none;
+}
+.page-turquoise .navbar .nav > li.current-page a {
+    color: #20BC8C;
+}
 /* ======================================================================== */
 /* ! Aqua
 /* ======================================================================== */
