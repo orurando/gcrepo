@@ -17,8 +17,7 @@
         margin-left: -25px;
     }
     .home .btn-custom{
-        margin-top:5%;
-        margin-left: -25px;
+        
     }
     .custom-1 .back-rounded {
         width: 190px;
@@ -40,11 +39,20 @@
         margin-top:5%;
         margin-left: -25px;
     }
-    .home .btn-custom-hidden{
-        margin-top: 5%;
+    .btn-custom{
+        font-size: 17px;
     }
-    .btn-only-mobile{
-        display: none;
+    .btn-large {
+        padding: 15px 20px;
+    }
+    .icon-op:before{
+        width: 34px;
+        height: 24px;
+        content: " ";
+        background-image: url(../images/op-gc.png);  
+        background-size: cover;
+        position: relative;
+        top: 8px;
     }
 }
  
@@ -75,23 +83,38 @@
         margin-top: 5%;
     }   
     .home .btn-custom-slider{
-        margin-top: 3%;
+            /*margin-top: 5%;*/
     }
     .home .btn-custom-hidden{
         margin-top: 0%;
     }
     .btn-only-mobile{
-        display: none;
+        /*display: none;*/
+    }
+    .btn-custom{
+        font-size: 17px;
+    }
+    .btn-large {
+        padding: 14px 18px;
+    }
+    .icon-op:before{
+        width: 34px;
+        height: 24px;
+        content: " ";
+        background-image: url(../images/op-gc.png);  
+        background-size: cover;
+        position: relative;
+        top: 8px;
     }
 }
  
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-	h2 { font: 100 36px/52px "Open Sans", Arial, Helvetica, Geneva, sans-serif; }
-	h3 { font: 100 24px/28px "Open Sans", Arial, Helvetica, Geneva, sans-serif; }
-	h4 { font: 100 24px/28px "Open Sans", Arial, Helvetica, Geneva, sans-serif; }
-	h5 { font: 100 14px/24px "Open Sans", Arial, Helvetica, Geneva, sans-serif; }
-	h6 { font: 100 14px/20px "Open Sans", Arial, Helvetica, Geneva, sans-serif; }
+	h2 { font: 100 36px/52px "Open Sans", Arial, Helvetica, Geneva, sans-serif;     line-height:40px;}
+	h3 { font: 100 24px/28px "Open Sans", Arial, Helvetica, Geneva, sans-serif;     line-height:30px; }
+	h4 { font: 100 24px/28px "Open Sans", Arial, Helvetica, Geneva, sans-serif;     line-height:30px; }
+	h5 { font: 100 14px/24px "Open Sans", Arial, Helvetica, Geneva, sans-serif;     line-height:18px; }
+	h6 { font: 100 14px/20px "Open Sans", Arial, Helvetica, Geneva, sans-serif;     line-height:18px; }
 	body {
 		padding: 0;
 	}
@@ -200,9 +223,6 @@
             word-wrap: break-word;
             margin-top: 10%;
         }   
-        .home .btn-custom-slider{
-            margin-top: 5%;
-        } 
         .custom-1 .back-rounded {
             width: 170px;
             height: 170px;
@@ -218,24 +238,38 @@
             word-wrap: break-word;
             margin-top: 10%;
         }   
-        .home .btn-custom-slider{
-            margin-top: 5%;
-        } 
-        .home .btn-custom-hidden{
-            margin-left: 30%;
-        }
         .btn-only-mobile{
-            display: none;
+            /*display: none;*/
         }
         #button-started{
             display: none;
         }
+        .btn-custom{
+            font-size: 14px;
+        }
+        .btn-large {
+            padding: 11px 19px;
+        }
+        .btn-partner-custom {
+            margin-top: 4px;
+            margin-left: 30px;
+        }
+        .icon-op:before{
+            //width: 34px;
+            //height: 24px;
+            content: "Op";
+            //background-image: url(../images/op-gc.png);  
+            //background-size: cover;
+            //position: relative;
+            //top: 8px;
+        }
+        
 }
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-	h2 { font: 100 32px/52px "Open Sans", Arial, Helvetica, Geneva, sans-serif; }
-	h5 { font: 100 14px/24px "Open Sans", Arial, Helvetica, Geneva, sans-serif; }
+	h2 { font: 100 32px/52px "Open Sans", Arial, Helvetica, Geneva, sans-serif;      line-height:40px;}
+	h5 { font: 100 14px/24px "Open Sans", Arial, Helvetica, Geneva, sans-serif;      line-height:18px;}
 	body {
 		padding: 0;
 	}
@@ -248,6 +282,9 @@
 		padding-left: 0px;
 		padding-right: 0px;
 	}
+        img {
+            max-width: 60%;
+        }
 	.home .overlay{
 		padding-top: 0;
 		background-size: 590px auto;
@@ -351,14 +388,14 @@
             text-align: left;
         }   
         .home .btn-custom-slider{
-            margin-top: 10%;
+            /*margin-top: 5%;*/
         }  
         .custom-1 .back-rounded {
             width: 190px;
             height: 190px;
         }
         .home .btn-custom-slider{
-            margin-top: 10%;
+            /*margin-top: 5%;*/
         } 
         .home h2{
             text-align: left;
@@ -373,18 +410,31 @@
             text-align: left;
         }   
         .home .btn-custom-slider{
-            margin-top: 10%;
+            /*margin-top: 5%;*/
         } 
         .home .btn-custom-hidden{
-            margin-top: 20%;
-            margin-left: -100%;
-            display: none;
+
         }
         .btn-only-mobile{
-            display: block;
+            /*display: none;*/
         }
         #button-started{
             display: none;
+        }
+        .btn-custom{
+            font-size: 14px;
+        }
+        .btn-large {
+            padding: 11px 19px;
+        }
+        .icon-op:before{
+            //width: 34px;
+            //height: 24px;
+            content: "Op";
+            //background-image: url(../images/op-gc.png);  
+            //background-size: cover;
+            //position: relative;
+            //top: 8px;
         }
 }
  
@@ -393,11 +443,14 @@
 	body {
 		padding: 0;
 	}
-	h2, .main-title h2 { font: 100 28px/40px "Open Sans", Arial, Helvetica, Geneva, sans-serif; }
-	h3, .main-title h3 { font: 100 20px/24px "Open Sans", Arial, Helvetica, Geneva, sans-serif; }
-	h4 { font: 100 20px/24px "Open Sans", Arial, Helvetica, Geneva, sans-serif; }
-	h5 { font: 100 14px/18px "Open Sans", Arial, Helvetica, Geneva, sans-serif; }
-	h6 { font: 100 14px/18px "Open Sans", Arial, Helvetica, Geneva, sans-serif; }
+	h2, .main-title h2 { font: 100 28px/40px "Open Sans", Arial, Helvetica, Geneva, sans-serif;     line-height:32px; }
+	h3, .main-title h3 { font: 100 20px/24px "Open Sans", Arial, Helvetica, Geneva, sans-serif;     line-height:25px; }
+	h4 { font: 100 20px/24px "Open Sans", Arial, Helvetica, Geneva, sans-serif;     line-height:25px; }
+	h5 { font: 100 14px/18px "Open Sans", Arial, Helvetica, Geneva, sans-serif;     line-height:18px; }
+	h6 { font: 100 14px/18px "Open Sans", Arial, Helvetica, Geneva, sans-serif;     line-height:18px; }
+        img {
+            max-width: 60%;
+        }
 	#back {
 		top: -1150px;
 		left: -730px;
@@ -522,7 +575,7 @@
             margin-top: 10%;
         }
         .home .btn-custom-slider{
-            margin-top: 30%;
+            /*margin-top: 5%;*/
         }
         .custom-1 .back-rounded {
             width: 190px;
@@ -539,16 +592,32 @@
             margin-top: 10%;
         }
         .home .btn-custom-slider{
-            margin-top: 10%;
+            /*margin-top: 5%;*/
         }
         .home .btn-custom-hidden{
-            display: none;
+
         }
         .btn-only-mobile{
-            display: block;
+            /*display: none;*/
         }
         #button-started{
             display: none;
+        }
+        .btn-custom{
+            font-size: 12px;
+        }
+        .btn-large {
+            padding: 8px 15px;
+        }
+        .icon-op:before{
+            //width: 34px;
+            //height: 24px;
+            font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+            content: "Op";
+            //background-image: url(../images/op-gc.png);  
+            //background-size: cover;
+            //position: relative;
+            //top: 8px;
         }
 }
 
