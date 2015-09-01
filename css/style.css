@@ -1185,3 +1185,12 @@ hr {
 .custom-report-2 .form-report input[type="text"], .custom-report-2 .form-report input[type="email"]{
     padding: 5px;
 }
+.icon-op:before{
+	width: 34px;
+	height: 24px;
+	content: " ";
+	background-image: url(../images/op-gc.png);  
+	background-size: cover;
+	position: relative;
+	top: 8px;
+}
