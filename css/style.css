@@ -1137,6 +1137,7 @@ hr {
     padding: 0;
     color: #585754;
 }
+
 .custom-report-2 .container-fluid {
     padding-right: 7%;
     padding-left: 7%;
@@ -1193,4 +1194,36 @@ hr {
 	background-size: cover;
 	position: relative;
 	top: 8px;
+}.fa-linkedin:before{    font-family: FontAwesome;    content: "\f08c";
+	color: #20bd8c;
+	font-style: normal;
+	font-size: 30px;
+}
+.custom-contact-2{
+    background: #fff;
+    background-size: cover;
+    padding: 0;
+    color: #585754;
+}
+.custom-contact-2 input[type="submit"]{
+    padding: 5px 24px;
+    background-color: #20bd8c;
+    color: #fff;
+    font-weight: 500;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border: none;
+}
+.custom-contact-2 input[type="submit"]:hover{
+    background-color: rgba(32, 203, 154, 0.8);
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.4);
+}
+.custom-contact-2 .form-custom{
+    
 }
