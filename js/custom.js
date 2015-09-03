@@ -14,6 +14,25 @@ tpj.noConflict();
 
 tpj(document).ready(function() {
 
+    
+    tpj("html").delegate(".report-list i","click", function(e){
+            e.preventDefault();
+            var classcurrent = tpj(this).attr('class');
+            var info = tpj(this).parent().parent().parent().next().html();
+            console.log(info);
+            tpj("#Inputreport").val(info);
+            tpj(".current-selected").addClass('fa-circle-thin');
+
+            tpj(".report-list i").removeClass('current-selected');
+
+            
+            tpj(this).removeClass('fa-circle-thin');
+            tpj(this).addClass('current-selected');
+            
+            return false;
+  
+    });
+
 if (tpj.fn.cssOriginal!=undefined)
 tpj.fn.css = tpj.fn.cssOriginal;
 

@@ -777,6 +777,13 @@ input[type="color"],
     background: #fff;
     background-size: cover;
     min-height: 0px;
+    padding: 0 20px;
+}
+.custom-second .custom-home-product h5{
+    font-weight: 600;
+    margin: 20px;
+    margin: 25px 0 0 0;
+    color:#585754;
 }
 .home {
     background-color: #20BD8C;
@@ -851,6 +858,7 @@ hr {
 .custom-about-1 hgroup h2  {
     font-weight: 600;
     font-size: 77px;
+    line-height: 60px;
 }
 .custom-about-1 hgroup h2 i{
     color: #20CB9A;
@@ -1154,14 +1162,6 @@ hr {
 .custom-report-2 p{
     margin-left: 30px;
 }
-.custom-report-2 .report-list i:before{
-    font-family: FontAwesome;
-    content: "\f1db";
-    color: #939292;
-    font-size: 23px;
-    font-style: normal;
-    margin-right: 10px;
-}
 .custom-report-2 input[type="submit"]{
     padding: 10px 25px;
     background-color: #20bd8c;
@@ -1225,5 +1225,48 @@ hr {
     box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.4);
 }
 .custom-contact-2 .form-custom{
+    
+}
+.custom-report-2 .report-list .fa-circle-thin:before{
+    font-family: FontAwesome;
+    content: "\f1db";
+    color: #939292;
+    font-size: 23px;
+    font-style: normal;
+    margin-right: 10px;
+}
+.current-selected:before{
+	font-family: FontAwesome;
+    content: "\f111";
+    color: #939292;
+    font-size: 23px;
+    font-style: normal;
+    margin-right: 10px;
+}
+#custom-product-1 hgroup h6, #custom-product-2 hgroup h6, #custom-product-3 hgroup h6, #custom-product-4 hgroup h6{
+    margin: 0;
+}
+.custom-product-0{
+    background: #f2f2f2;
+}
+#custom-product-1, #custom-product-3{
+    padding: 30px 20px;
+}
+#custom-product-2, #custom-product-4{
+    background: #f2f2f2;
+    padding: 30px 20px;
+}
+.custom-rotate img{
+    transition: 1.5s ease;
+    -moz-transition: 1.5s ease; /* Firefox */
+    -webkit-transition: 1.5s ease; /* Chrome - Safari */
+    -o-transition: 1.5s ease; /* Opera */
+}
+.custom-rotate img:hover{
+    transform : scale(1.2);
+    -moz-transform : scale(1.2); /* Firefox */
+    -webkit-transform : scale(1.2); /* Chrome - Safari */
+    -o-transform : scale(1.2); /* Opera */
+    -ms-transform : scale(1.2); /* IE9 */
     
 }

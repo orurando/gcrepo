@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['email'])) {
 
-$email_to = "dimax6@gmail.com";
+$email_to = "sales@grandcanals.com";
 
 
 if(!isset($_POST['full_name']) ||
@@ -12,7 +12,11 @@ if(!isset($_POST['full_name']) ||
 !isset($_POST['comment'])) {
 
 
-var_dump($_POST);die();
+$actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+$actual_link = $actual_link."/../request.html?fail=true";
+
+
+header("Location: ".$actual_link);
 }
 $email_subject = $_POST['subject'];
 $email_message = "Contact Details:\n\n";
@@ -28,5 +32,10 @@ $headers = 'From: '.$email_from."\r\n".
 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message, $headers);
 
+$actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+$actual_link = $actual_link."/../request.html?sucess=true";
+
+
+header("Location: ".$actual_link);
 }
 ?>
